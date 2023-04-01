@@ -1,3 +1,3 @@
 /*
-    - Week 1 - 
+    - Week 1 - Creating React components
 */
