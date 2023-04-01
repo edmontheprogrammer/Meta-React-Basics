@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+
+import Header  from './components/Header'
+import Main from './components/Main'
+import Sidebar from './components/Sidebar'
 import './App.css'
 
-// this is a header component that returns an <h1> html element
-// Note 1: a react component is basically a Javascript function that 
-// can return an item or something that react can evaluate. 
-// It must have a closing tag at the end such as <h1> title </h1>; 
-function Header() {
-  return <h1>Hello world </h1>; 
-}
+
 
 // this is a react functional component, or an App component
 function App() {
@@ -22,7 +20,13 @@ function App() {
     * This return statment is calling the "react component" named "Header"
       we created above.  
   */
-  return <Header/>;
-}
+  return (
+    <div>
+        <Header name="Anna" color="purple"/>
+        <Main greet="Howdy" /> 
+        <Sidebar  greet="Hi" /> 
+    </div>
+  );
+};
 
-export default App
+export default App;
