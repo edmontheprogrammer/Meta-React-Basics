@@ -8,11 +8,10 @@ import './App.css'
 // can return an item or something that react can evaluate. 
 // It must have a closing tag at the end such as <h1> title </h1>; 
 function Header() {
-  return <h1>Hello world</h1>; 
+  return <h1>Hello world </h1>; 
 }
 
-// this is the root components which is rundering a blank page 
-// this is a react functional component
+// this is a react functional component, or an App component
 function App() {
  
   /*

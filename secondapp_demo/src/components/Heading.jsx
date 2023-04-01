@@ -1,9 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-
 /*
   * This function is creating a "Heading()" compoenent that returns an "h1" element
 
@@ -22,27 +16,9 @@ import './App.css'
   * Step 4: Finally you saved your changes and viewed the app in the browser. 
 */
 function Heading() {
-  return (
-    <h1>This is an h1 heading.</h1>
-  )
-}
+    return (
+      <h1>This is an h1 heading.</h1>
+    );
+  };
 
-/*
-  Step 1: 
-  This is the App compoenent which returns an html "<div>" element plus the "<Heading />" component that we 
-  created above. 
-
- "
-*/
-function App() {
-  
-  return (
-    <div className='App'>
-        This is the starting code for "Your first component" 
-        <Heading />
-    </div>
-  )
-  
-}
-
-export default App;
+  export default Heading; 
