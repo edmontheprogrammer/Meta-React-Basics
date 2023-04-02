@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Card from "./Card/Card.jsx"; 
+import Card from "./components/Card/Card.jsx"; 
+
 
 function App() {
 

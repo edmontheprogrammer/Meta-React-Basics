@@ -7,6 +7,9 @@ import Main from './components/Main'
 import Sidebar from './components/Sidebar'
 
 import avator from './images/avator.jpg'
+
+import Btn from './components/Btn';
+
 import './App.css'
 
 
@@ -41,6 +44,7 @@ function App() {
         <Header name="Anna" color="purple"/>
         <Main greet="Howdy" /> 
         <Sidebar  greet="Hi" /> 
+        <Btn />
     </div>
   );
 };
