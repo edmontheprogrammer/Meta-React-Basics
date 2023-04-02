@@ -1,7 +1,7 @@
 
 function Intro3() {
     return (
-        <div className="blog-post-intro">
+        <div className="blog-post-intro Intro3-content">
             <h2>
                 What's the best way to style your React apps?
             </h2>

@@ -5,8 +5,20 @@ import viteLogo from '/vite.svg'
 import Header  from './components/Header'
 import Main from './components/Main'
 import Sidebar from './components/Sidebar'
+
+import avator from './images/avator.jpg'
 import './App.css'
 
+
+/*
+  Note 1: The "Logo" is usually a separate component in a separate folder and
+      file when following best practices. But to Keep things simple, 
+      we'll add the logo to the same files as the "App" component. 
+*/
+function Logo(props) {
+  const userPic = <img src={avator} width={"150px"} height={"150px"}/>;
+  return userPic; 
+}
 
 
 // this is a react functional component, or an App component
@@ -22,6 +34,10 @@ function App() {
   */
   return (
     <div>
+    <div>
+      <h1>Hello World</h1>
+      <Logo />
+    </div>
         <Header name="Anna" color="purple"/>
         <Main greet="Howdy" /> 
         <Sidebar  greet="Hi" /> 

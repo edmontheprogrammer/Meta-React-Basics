@@ -10,8 +10,6 @@ import Intro3 from './components/Intro3'
 import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <Nav />
