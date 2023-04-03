@@ -17,6 +17,11 @@ import './App.css'
   Note 1: The "Logo" is usually a separate component in a separate folder and
       file when following best practices. But to Keep things simple, 
       we'll add the logo to the same files as the "App" component. 
+
+  Note 2: Command for creating new React app: 
+
+    "  npm create vite@latest "
+
 */
 function Logo(props) {
   const userPic = <img src={avator} width={"150px"} height={"150px"}/>;
